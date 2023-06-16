@@ -6,7 +6,7 @@
  * Return: Always (Success)
  */
 int main(void)
-{printf("Size of a char: %lu byte(s)\n", sizeof (charType));
+{printf("Size of a char: %lu byte(s)\n", sizeof(charType));
 printf("Size of an int: %lu bytes\n", sizeof(intType));
 printf("Size of a long int: %lu bytes\n", sizeof(longintType));
 printf("Size of a long long int: %lu bytes\n", sizeof(longlongintType));
