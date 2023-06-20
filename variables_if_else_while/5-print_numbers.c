@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	int n;
+	int dg;
 
-	for (n = 0; n < 10; n++)
-		printf('%d', n);
+	for (dg = 0; dg < 10; dg++)
+		printf('%d', dg);
 	printf('\n');
 
 	return (0);
