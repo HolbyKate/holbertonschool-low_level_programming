@@ -3,18 +3,18 @@
 /**
  * main - abs
  *
- * Return: -int if <0 int if else 
+ * Return: -i if <0 i if else
  */
 
-int _abs(int)
+int _abs(int i)
 {
-	if (int < 0)
+	if (i < 0)
 	{
-		return (-int);
+		return (-i);
 	}
-else
+	else
 	{
-		return (int);
+		return (i);
 	}
 }
 
