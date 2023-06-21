@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Prints _putchar
  *
- * Return: Always (Success)
+ * Return: Always 0
  */
 int main(void)
 {
 
-	printf('\"_" putchar')
+	printf("_ putchar");
 
 		return (0);
 }
