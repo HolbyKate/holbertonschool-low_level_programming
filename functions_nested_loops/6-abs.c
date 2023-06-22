@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - abs
- *
+ * _abs - abs
+ * @i: The standard library provides a similar function: abs.
  * Return: -i if <0 i if else
  */
 
