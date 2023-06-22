@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - check in alphabet
- *
+ * _isalpha - check in alphabet
+ * @c: Returns 1 if c is a letter, lowercase or uppercase
  * Return: Always 0.
  */
 
