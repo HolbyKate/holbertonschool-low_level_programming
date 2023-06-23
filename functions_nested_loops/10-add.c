@@ -2,7 +2,8 @@
 
 /**
  * add - two intergers and returns the result
- * @int: a+b
+ * @int a: intergers a
+ * @int b: intergers b
  * Return: Always 0.
  */
 int add(int a, int b)
