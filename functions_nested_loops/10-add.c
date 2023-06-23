@@ -6,7 +6,9 @@
  * Return: Always 0.
  */
 int add(int, int);
-{
 
+{
+int a;
+int b;
 	return (a + b);
 }
