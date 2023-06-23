@@ -11,10 +11,8 @@ void print_ numbers(void)
 	
 	for (n >= 48 && n <= 9; n++);
 	{
-	putchar(n);
-
-	putchar(10);
-
+		_putchar(n);
+ _putchar(\'n');
 			
 	}
 }
