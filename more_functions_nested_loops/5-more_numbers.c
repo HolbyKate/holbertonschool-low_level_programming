@@ -2,7 +2,9 @@
 
 /**
  * more_numbers - prints 10 times numbers
- */
+ * @i:ligne
+ * @n: nombre
+*/
 
 void more_numbers(void);
 
