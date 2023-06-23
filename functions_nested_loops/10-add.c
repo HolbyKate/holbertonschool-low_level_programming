@@ -5,7 +5,7 @@
  * @int: a+b
  * Return: Always 0.
  */
-int add(int, int);
+int add(int, int)
 
 int a, b;
 {
