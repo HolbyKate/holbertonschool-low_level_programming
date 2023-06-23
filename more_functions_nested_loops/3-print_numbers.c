@@ -2,12 +2,11 @@
 
 /**
  * print_numbers - prints numbers from 0 to 9
- * @n: 0 to 9
  * Return: Always success
  */
 void print_numbers(void)
 {
-	char n;
+	int n;
 
 	for (n = '0' ; n <= '9'; n++)
 	{
