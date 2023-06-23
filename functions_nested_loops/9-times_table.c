@@ -21,7 +21,7 @@ void times_table(void)
 			if (es / 10 == 0)
 				_putchar(32);
 		}
-		elee if
+		else if
 		{
 			_putchar(es / 10 + '0');
 			_putchar(es %  10 + '0');
