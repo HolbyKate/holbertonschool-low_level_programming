@@ -5,7 +5,7 @@
  * @n: 0 to 9
  * Return: Always success
  */
-void print_ numbers(void)
+void print_numbers(void)
 {
 	int n;
 
@@ -15,7 +15,7 @@ void print_ numbers(void)
 	}
 		{
 
-		_putchar(\'n');
+		_putchar('\n');
 	}
 
 }
