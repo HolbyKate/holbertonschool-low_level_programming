@@ -2,13 +2,10 @@
 
 /**
  * times_table - prints 9 times table starting with 0
- * @h:hauteur
- * @L: largeur
- * @es: espace
  * Return: Always success
  */
 void times_table(void)
-{
+
 	int h;
 	int L;
 	int es;
