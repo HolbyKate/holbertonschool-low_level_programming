@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints 10 times the alphabet
+ * more_numbers - prints 10 times numbers
  */
 
-void print_alphabet_x10(void)
+void more_numbers(void);
 {
 		int i, n;
 
