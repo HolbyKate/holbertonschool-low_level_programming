@@ -10,10 +10,11 @@ void times_table(void)
 	int L;
 	int es;
 
-	for (h = 0; L <= 9; h++)
+{
+	for (h = 0; h <= 9; h++)
 	{
 		_putchar('0');
-
+	}
 		for (L = 1; L < 10; L++)
 		{
 			_putchar(44);
@@ -28,4 +29,3 @@ void times_table(void)
 			_putchar('\n');
 		}
 	}
-}
