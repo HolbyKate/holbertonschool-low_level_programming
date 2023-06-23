@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* print_line - prints traight line
-* @n: number of times the character should be printed
-*
-* Return: always success
-*/
+ * print_line - prints traight line
+ * @n: number of times the character should be printed
+ *
+ * Return: always success
+ */
 
 void print_line(int n)
 
@@ -19,9 +19,9 @@ void print_line(int n)
 
 	else
 	{
-	for (j = 0; J <n; j++)
-	{
-		_putchar(95);
+		for (j = 0; j <n; j++)
+		{
+			_putchar(95);
 		}
 		_putchar('\n');
 	}
