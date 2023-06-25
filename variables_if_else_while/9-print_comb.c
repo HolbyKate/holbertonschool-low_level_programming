@@ -14,14 +14,11 @@ int main(void)
 		putchar(n);
 	}
 
-	for (n = 97; n <= 'f'; n++)
 	{
-		putchar(n);
+
+		putchar (44);
+		putchar (32);
 	}
-
-
-	putchar (44);
-	putchar (32);
-
+	putchar('\n');
 	return (0);
 }
