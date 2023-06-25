@@ -2,25 +2,25 @@
 
 /**
  * print_to_98 : prints all natural numbers from n to 98
- * @n: numbers with coma and space
+ * @i: numbers with coma and space
  * Return: Always 0
  */
 
 void print_to_98(int n)
 {
-	int n;
+	int i;
 
-	if (n <= 98; n++)
+	if (i <= 98; i++)
 	{
-		printf('%', n);
+		putchar('%d', i);
 
-		if (n != 98)
+		if (i != 98)
 		{
-			printf(44, 32);
+			putchar(44, 32);
 		}
 	}
 
-	printf('\n');
+	putchar('\n');
 }
 
 
