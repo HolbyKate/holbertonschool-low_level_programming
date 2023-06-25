@@ -14,7 +14,7 @@ oclean:
 	$(RM) $(OBJ)
 
 fclean:
-	$(rm) main.c~ $(NAME) $(OBJ)
+	$(RM) main.c~ $(NAME) $(OBJ)
 
 re: clean all
 
