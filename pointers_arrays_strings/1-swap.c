@@ -5,14 +5,14 @@
  * swap_int - pointer
  * @a: updates the value
  * @b: swap value
- * @c: temp
- * Return: Always success
  */
 
 void swap_int(int *a, int b)
-
 {
-	int c = *a;
+
+	int c = 0;
+
+	c = *a;
 	*a = *b;
 	*b = c;
 }
