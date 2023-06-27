@@ -8,10 +8,13 @@
 void puts2(char *str)
 
 {
-	int = i;
+	int i = 0;
 
-	if ( i >= 48 ; < 57; str[i]; i++)
+	for ( i >= 48 ; < 57; str[%di]; i++)
 	{
-		putchar (i);
+		putchar(i);
+	i += 2;
+
 	}
+	putchar('\n');
 }
