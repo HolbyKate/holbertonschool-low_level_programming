@@ -3,7 +3,7 @@
 
 /**
  * _puts - prints a string
- * @*str : la phrase
+ * @str : la phrase
  * Return : always (0)
  */
 
