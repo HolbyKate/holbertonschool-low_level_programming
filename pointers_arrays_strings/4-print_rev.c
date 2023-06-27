@@ -4,7 +4,7 @@
 /**
  * print_rev - prints a string reverse
  * @s : la phrase
- * Return : always (0)
+ * Return : void
  */
 
 void print_rev(char *s)
@@ -16,8 +16,7 @@ void print_rev(char *s)
 	{
 		i++;
 	}
-
-	if (i >= 0; i--);
+	for (i-=1; i >= 0; i--);
 	{
 		_putchar(s[i]);
 	}
