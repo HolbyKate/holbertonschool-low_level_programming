@@ -9,9 +9,8 @@ void puts2(char *str)
 
 {
 	int = i;
-	i = 0;
 
-	if ( i >= 48 ; < 57; i++)
+	if ( i >= 48 ; < 57; str[i]; i++)
 	{
 		putchar (i);
 	}
