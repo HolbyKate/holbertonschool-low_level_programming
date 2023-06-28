@@ -3,18 +3,23 @@
 /**
  * print_array - prints every other character starting with the first character
  * @a: type of character
- * @n: number 
- * Return: Always 0.
+ * @n: number
+ * Return: void
  */
 void print_array(int *a, int n)
 
 {
-	int i [5];
-	int a, n;
+	int j;
 
-	for (a = 0; a < n; a++)
+	for (j = 0; j < n; j++)
 	{
-		printf("%d\n",a [i];
-				}
-printf("\n");
+		printf("%d", a[j]);
+
+		if (j != (n - 1))
+		{
+			printf(", ");
+		}
+	}
+
+	printf("\n");
 }
