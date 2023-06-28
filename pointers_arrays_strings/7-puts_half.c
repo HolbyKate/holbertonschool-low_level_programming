@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * puts_half - prints every other character starting with the first character
  * @str: type of character
