@@ -3,7 +3,7 @@
 /**
  * puts_half - prints every other character starting with the first character
  * @str: type of character
- * Return: Always 0.
+ * Return: void
  */
 void puts_half(char *str)
 
