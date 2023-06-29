@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - print a string
+ * _strncat - print a string
  * @dest: destination string
  * @src: source string
  * @n: number
