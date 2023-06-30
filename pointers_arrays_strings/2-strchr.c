@@ -3,10 +3,10 @@
 
 /**
  * _strchr - loctae a character
- * @*s: string
+ * @s: string
  * @c: occurence of the character
  *
- * Return: s
+ * Return: void
  */
 
 char *_strchr(char *s, char c)
