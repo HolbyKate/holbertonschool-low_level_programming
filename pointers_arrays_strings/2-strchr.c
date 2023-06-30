@@ -2,19 +2,20 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * _strchr - loctae a character
+ * @*s: string
+ * @c: occurence of the character
  *
- * Return: Always 0.
+ * Return: void
  */
 
 char *_strchr(char *s, char c)
 {
-	int s;
 
-	while (s != '\0')
+	while (*s != '\0')
 	{
-		if (*s ==:c)
-			return (*s);
+		if (*s == : c)
+			return (s);
 		s++;
 	}
 	else
