@@ -20,6 +20,6 @@ char *string_toupper(char *s)
 
 			s[i] -= 32;
 }
-
-return (0);
+i++;
+return (s);
 }
