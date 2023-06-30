@@ -13,7 +13,6 @@ char *cap_string(char *)
 	int i;
 
 	i = 0;
-	char * = s;
 
 	while (s[i] != '\0')
 	{
@@ -33,7 +32,7 @@ char *cap_string(char *)
 			 (s[i - 1] == 41) ||
 			 (s[i - 1] == 123) ||
 			 (s[i - 1] == 125) ||
-			 (s == 0))
+			 (s == 0));
 
 				s[i] = s[i] - 32;
 		}
