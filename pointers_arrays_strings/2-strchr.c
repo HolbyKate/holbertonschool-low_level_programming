@@ -6,7 +6,7 @@
  * @*s: string
  * @c: occurence of the character
  *
- * Return: void
+ * Return: s
  */
 
 char *_strchr(char *s, char c)
@@ -17,6 +17,11 @@ char *_strchr(char *s, char c)
 		if (*s == c)
 			return (s);
 		s++;
+	}
+
+	{
+		if (*s == c)
+			return (s);
 	}
 	else
 	{
