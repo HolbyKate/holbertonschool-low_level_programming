@@ -9,14 +9,14 @@
  * Return: always success
  */
 
-int_perfect(int result, int a)
+int _perfect(int result, int a)
 {
 	if (a * a == result)
 		return (a);
 	else if (a * a > result)
 		return (-1);
 	else
-		return (perfect(result, a + 1));
+		return (_perfect(result, a + 1));
 				}
 				/**
 				 * _sqrt_recursion - return the natural square root of a number
@@ -26,6 +26,6 @@ int_perfect(int result, int a)
 				 */
 				int _sqrt_recursion(int n)
 				{
-				return (perfect(n, 1));
+				return (_perfect(n, 1));
 				}
 
