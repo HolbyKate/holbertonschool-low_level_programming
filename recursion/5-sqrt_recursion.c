@@ -17,15 +17,15 @@ int _perfect(int result, int a)
 		return (-1);
 	else
 		return (_perfect(result, a + 1));
-				}
-				/**
-				 * _sqrt_recursion - return the natural square root of a number
-				 * @n: type int
-				 *
-				 * Return: always success
-				 */
-				int _sqrt_recursion(int n)
-				{
-				return (_perfect(n, 1));
-				}
+}
+/**
+ * _sqrt_recursion - return the natural square root
+ * @n: type int
+ *
+ * Return: always success
+ */
+int _sqrt_recursion(int n)
+{
+	return (_perfect(n, 1));
+}
 
