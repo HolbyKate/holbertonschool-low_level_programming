@@ -8,7 +8,7 @@
  * Return: always success
  */
 
-int main(__attribute__((unused)) int argc, char *argv[])
+int main(int argc__attribute__((unused)), char *argv[])
 {
 	putchar (argv[0]);
 	return (0);
