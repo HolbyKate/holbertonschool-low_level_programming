@@ -1,11 +1,12 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - prints its name, followed by a new line
+ * main - prints the name file, followed by a new line
  * @argc: the size
  * @argv: the array
  *
- * Return: always success
+ * Return: name file
  */
 
 int main(int argc__attribute__((unused)), char *argv[])
