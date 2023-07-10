@@ -14,20 +14,20 @@ char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 
-	i = 0
+	i = 0;
 	char *s;
 
-	if (s == NULL)
+	if (char == NULL)
 		return (NULL);
 
 	if (size == 0)
 		return (NULL);
 
-	while (i <= size)
-	{
-		s[i] = c;
+	for (i <= size)
+	
+		char[i] = c;
 		i++;
-	}
+	
 	return (s);
 }
 
