@@ -6,14 +6,14 @@
  * create_array - creates an array of chars,with a specific char
  * @size: size for the memories
  * @c: characters
- * @s: size
+ *
  * Return: pointer to the array or size, or NULL if it fails
  */
 
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char *s;
+	char *s = NULL;
 
 	s = malloc(size * sizeof(char));
 	if (s == NULL)
