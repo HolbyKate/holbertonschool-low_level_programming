@@ -6,7 +6,7 @@
  * create_array - creates an array of chars,with a specific char
  * @size: size for the memories
  * @c: characters
- *
+ * @s: size
  * Return: always 0.
  */
 
@@ -14,7 +14,7 @@ char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 
-	i = 0;
+	i = 0
 	char *s;
 
 	if (s == NULL)
@@ -23,7 +23,7 @@ char *create_array(unsigned int size, char c)
 	if (size == 0)
 		return (NULL);
 
-	while (i < size)
+	while (i <= size)
 	{
 		s[i] = c;
 		i++;
