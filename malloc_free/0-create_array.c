@@ -7,7 +7,7 @@
  * @size: size for the memories
  * @c: characters
  *
- * Return: size
+ * Return: always 0.
  */
 
 char *create_array(unsigned int size, char c)
@@ -15,9 +15,9 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 
 	i = 0;
-	char *p;
+	char *s;
 
-	if (p == NULL)
+	if (s == NULL)
 		return (NULL);
 
 	if (size == 0)
@@ -25,10 +25,10 @@ char *create_array(unsigned int size, char c)
 
 	while (i < size)
 	{
-		p[i] = c;
+		s[i] = c;
 		i++;
 	}
-	return (p);
+	return (s);
 }
 
 
