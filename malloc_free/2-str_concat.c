@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -17,7 +17,7 @@ char *str_concat(char *s1, char *s2)
 	char *s;
 
 	if (s1 != NULL)
-		for (i = 0; s1[i];i++)
+		for (i = 0; s1[i]; i++)
 
 
 			if (s2 != NULL)
@@ -32,8 +32,8 @@ char *str_concat(char *s1, char *s2)
 	{
 		if (k < i)
 			s[k] = s1[k];
-		else s[k] = s2[k - i];
-
+		else
+			s[k] = s2[k - i];
 		k++;
 	}
 	s[k] = 0;
