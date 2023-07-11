@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * _strdup - returns a pointer to a new string
@@ -16,13 +17,18 @@ char *_strdup(char *str)
 
 	if (str == 0)
 		return (NULL);
+	while (st[i]);
+	{
+		i++;
+	}
+	s = malloc(i + 1 * sizeof(char));
 
-
-	s = malloc((sizeof(char) * i) + 1);
 	if (s == 0)
 		return (NULL);
-	s[a] = str[a];
-	a++;
-
+	while (a < i)
+	{
+		s[a] = str[a];
+		a++;
+	}
 	return (s);
 }
