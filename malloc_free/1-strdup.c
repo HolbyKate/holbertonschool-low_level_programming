@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * _strdup - returns a pointer to a new string
+ * _strdup - return pointer to a new string which is a duplicate of string
  * @str: sting to be duplicate
  *
- * Return : a pointer if success, NULL if not
+ * Return: pointer to duplicated string
  */
 
 char *_strdup(char *str)
@@ -15,21 +15,24 @@ char *_strdup(char *str)
 	int i = 1;
 	char *s;
 
-	if (str == 0)
+	if (str == NULL)
 		return (NULL);
-	while (str[i] != '\0');
+	while (str[i] != '\0')
 	{
 		i++;
 	}
-	s = malloc(i + 1 * sizeof(char));
 
-	if (s == 0)
+	s = malloc((sizeof(char) * i) + 1);
+
+	if (s == NULL)
 		return (NULL);
 	while (a < i)
 	{
 		s[a] = str[a];
 		a++;
 	}
-	s[i] = '\0';
+
+	s[a] = '\0';
 	return (s);
+
 }
