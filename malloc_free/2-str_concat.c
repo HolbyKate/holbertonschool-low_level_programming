@@ -16,11 +16,6 @@ char *str_concat(char *s1, char *s2)
 	int k = 0;
 	char *s;
 
-	if (s1 == NULL)
-		return("");
-	if (s2 == NULL)
-		return("");
-
 	if (s1 != NULL)
 		for (i = 0; s1[i]; i++)
 
@@ -32,6 +27,11 @@ char *str_concat(char *s1, char *s2)
 
 	if (s == NULL)
 		return (NULL);
+if (s1 == NULL)
+	s1 == "";
+
+if (s2 == NULL)
+	s2 == "";
 
 	while (k < (i + j))
 	{
