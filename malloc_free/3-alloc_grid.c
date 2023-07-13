@@ -3,8 +3,8 @@
 
 /**
  * alloc_grid - returns a pointer to a 2 dimensional array of integers
- * @w: largeur
- * @h: hauteur
+ * @width: largeur
+ * @height: hauteur
  *
  * Return: a pointer or NULL on failure, 0 or negative
  */
