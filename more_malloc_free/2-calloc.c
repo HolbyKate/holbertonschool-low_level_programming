@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _calloc - allocates memory for an array
+ * _calloc - function that allocates memory for an array
  * @nmemb: element
  * @size: size bytes
  *
