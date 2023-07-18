@@ -15,7 +15,7 @@ void print_name(char *name, void (*f)(char *))
 		return;
 	if (f == NULL)
 		return;
-	/*si f est un pointer vers une fonction alors on peut l'écrire comme ça pour prints*/
+	/*si f est un pointer vers une fonction alors on le prints comme ça*/
 
 	f(name);
 }
