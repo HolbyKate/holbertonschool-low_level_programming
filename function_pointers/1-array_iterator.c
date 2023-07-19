@@ -25,5 +25,5 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 	/* size is the size of the array et action pointer to the function*/
 
 	while (size--)
-		(action *(array));
+		(action (*array));
 }
