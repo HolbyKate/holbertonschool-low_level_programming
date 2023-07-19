@@ -13,7 +13,8 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int index;
-/* if no elements matches and size negative o 0 */
+	index = size;
+	/* if no elements matches and size negative o 0 */
 
 	if (size <= 0)
 		return (-1);
@@ -21,4 +22,12 @@ int int_index(int *array, int size, int (*cmp)(int))
 		return (-1);
 	if (cmp == NULL)
 		return (-1);
+	/*returns the index of the first element for which the cmp function does not return 0*/
+	/*it comprae value*/
+	while (size--)
+	{
+		if (cmp(array[index - size]))
+			return (size);
+	}
+	return (-1);
 }
