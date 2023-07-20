@@ -30,8 +30,8 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 		exit(99);
-
 	}
+
 	result = op_func(a, b);
 	printf("%d\n", result);
 
