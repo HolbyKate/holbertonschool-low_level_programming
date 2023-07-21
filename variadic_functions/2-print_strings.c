@@ -7,7 +7,7 @@
  * @seperator: the string to be printed between strings
  * @n: number of strings passed to be function
  * @...: list
- * 
+ *
  * Return void
  */
 
@@ -30,15 +30,14 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			else
 				printf("%s", string);
 
-			if (i != n -1 && separator != NULL)
+			if (i != n - 1 && separator != NULL)
 				printf("%s", separator);
 			i++;
 		}
 
-
-		printf("\n");
 		va_end(ap);
 	}
+	printf("\n");
 }
 
 
