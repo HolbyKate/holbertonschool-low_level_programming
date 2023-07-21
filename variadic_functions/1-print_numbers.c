@@ -27,8 +27,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 	}
 	/*If separator is NULL, don’t print it*/
-	if (separator == NULL)
-		printf("\n");
+	if (n == 0)
+		printf("NULL");
 
 	/*Terminer l'utilisation de l'objet va_list*/
 	printf("\n");
