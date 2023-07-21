@@ -26,10 +26,10 @@ int int_index(int *array, int size, int (*cmp)(int))
 	/*returns the index of the first element */
 	/*for which the cmp function does not return 0*/
 	/*it comprae value*/
-	for (i = 0; i < size; i++)
+	for (index = 0; index < size; index++)
 	{
-		if (cmp(*(array + i)))
-			return (i);
+		if (cmp(*(array + index)))
+			return (index);
 	}
 	return (-1);
 }
