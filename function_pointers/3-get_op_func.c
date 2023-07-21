@@ -6,7 +6,7 @@
  * get_op_func - function that selects the correct function
  * @s: operator
  *
- * Return: 
+ * Return: Null or the function
  */
 
 
@@ -24,7 +24,7 @@ int (*get_op_func(char *s))(int, int)
 
 	while (ops[i].op != NULL)
 	{
-		if (*(ops[i].op) == *s && *(s +1) == '\0')
+		if (*(ops[i].op) == *s && *(s + 1) == '\0')
 		{
 			return (ops[i].f);
 		}
