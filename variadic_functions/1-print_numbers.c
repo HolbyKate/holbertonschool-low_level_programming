@@ -28,9 +28,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	}
 	/*If separator is NULL, don’t print it*/
 	if (separator == NULL)
-		putchar(32);
+		printf("\n");
 
 	/*Terminer l'utilisation de l'objet va_list*/
-	putchar('\n');
-	va_end (ap);
+	printf("\n");
+	va_end(ap);
 }
