@@ -22,14 +22,10 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		/* Utiliser la macro va_arg pour récupérer chaque argument*/
 		printf("%d", va_arg(ap, int));
-		i++;
 		if (i < n && (separator))
 			printf("%s", separator);
+		i++;
 	}
-	/*If separator is NULL, don’t print it*/
-	if (n == 0)
-		printf("NULL");
-
 	/*Terminer l'utilisation de l'objet va_list*/
 	printf("\n");
 	va_end(ap);
