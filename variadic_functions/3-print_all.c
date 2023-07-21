@@ -12,12 +12,13 @@
 void print_all(const char * const format, ...)
 {
 	va_list ap;
-	unsigned int i = 0;
+	int i = 0;
+
 
 	va_start(ap, format);
 	while (format == NULL)
 	{
-		putchar("\n");
+		printf("\n");
 		return;
 	}
-
+}
