@@ -7,7 +7,6 @@
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
- * @toutou: the new dog
  *
  * Return: pointer to dog
  */
