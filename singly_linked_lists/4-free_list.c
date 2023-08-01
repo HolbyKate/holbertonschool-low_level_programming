@@ -5,20 +5,19 @@
 
 /**
  * free_list - function that free a list_t list
- * @head: the new_node
+ * @head: the node to be free
  *
  * Return: void
  */
 
 void free_list(list_t *head)
 {
-	list_t *next_node = head->next;
+	list_t * tmp;
 
 	while (head != NULL)
 	{
-		free(head->str);
-		free(head);
-
-		head = next_node;
+		tmp = head;
+		head = head->next;
+		free(tmp);
 	}
 }
