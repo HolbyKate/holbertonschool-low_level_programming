@@ -4,10 +4,10 @@
 #include <string.h>
 
 /**
- * list_len - function that return the number of a list_t list
- * @h: pointer to a linked list -t
+ * add_node - function that adds a new node at the beginning of a list_t list
+ * @str: string for new node
  *
- * Return: number of elements
+ * Return: he address of the new element
  */
 
 list_t *add_node(list_t **head, const char *str)
