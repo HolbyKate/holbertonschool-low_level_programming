@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * add_node_end - function that adds a new node at the beginning of a list_t list
+ * add_node_end - function that adds a new node at the end of a list_t list
  * @str: string for new node
  * @head: the new_node
  *
@@ -23,10 +23,10 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 	}
 	new_node->str = strdup(str);
-	if (new_node->str == NULL) 
+	if (new_node->str == NULL)
 	{
 		free(new_node);
-		return NULL;
+		return (NULL);
 	}
 	new_node->next = NULL;
 	if (*head == NULL)
@@ -36,6 +36,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	else
 	{
 		list_t *current = *head;
+
 		while (current->next != NULL) 
 		{
 			current = current->next;
