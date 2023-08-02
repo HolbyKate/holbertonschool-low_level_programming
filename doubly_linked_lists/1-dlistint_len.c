@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * dlistint_len - function returns the number of elements in a link dlistint_t list
+ * dlistint_len - function returns number of elements in a link dlistint_t list
  * @h: pointer to a doble linked list -t
  *
  * Return: number of elements
