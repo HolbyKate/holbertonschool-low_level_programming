@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * add_dnodeint - function that adds a new node at the start of a dlistint_t list
+ * add_dnodeint - function that adds a new node at the start of dlistint_t list
  * @n: node
  * @head: pointer
  *
@@ -13,18 +13,18 @@
 
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	dlistint_t *node = NULL;
-	node = malloc(sizeof(dlistint_t));
+	dlistint_t *new_node = NULL;
 	
-	if (node == NULL)
+	new_node = malloc(sizeof(dlistint_t));
+	if (new_node == NULL)
 	{
-		free(node);
-		node = NULL;
+		free(new_node);
+		new_node = NULL;
 		return (NULL);
 	}
-		node->n = n;
-		node->prev = NULL;
-		node->next = NULL;
-		*head = node;
-		return (node);
+		new_node->n = n;
+		new_node->prev = NULL;
+		new_node->next = NULL;
+		*head = new_node;
+		return (new_node);
 }
