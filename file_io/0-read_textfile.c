@@ -5,7 +5,7 @@
  * read_textfile - fucntion that reads a text and prints it to the POSIX
  * standard output
  * @filename: the file
- * @: the letters
+ * @letters: the letters
  *
  * Return: if the file can not be opened or read, return 0
  */
