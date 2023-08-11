@@ -15,6 +15,7 @@ int append_text_to_file(const char *filename, char *text_content)
 {
 	int fd;
 	int bytes_write;
+	int i;
 
 	if (filename == NULL)
 	{
@@ -31,14 +32,12 @@ int append_text_to_file(const char *filename, char *text_content)
 		close(fd);
 		return ( 1);
 	}
-	
-	bytes_write = write(fd, text_content, strlen(text_content));
-	if (bytes_write == -1)
-	{
-		close(fd);
-		return (-1);
-	}
 
+	while (*(text_content + i) != '\0')
+		i++;
+	bytes_write = write(fd, text_content, i);
+	if (bytes_write == -1)
+		return (-1);
 	close(fd);
 	return (1);
 }
